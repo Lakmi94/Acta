@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.acta.acta.app.Activity.Country_Info.CountryInformationSouthKoreaCities"
+    android:id="@+id/Seoul">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" >
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="South Korea"
+            android:textColor="@android:color/white"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_gravity="left"
+            />
+    </android.support.v7.widget.Toolbar>
+
+    <SearchView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="57dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Seoul"
+        android:id="@+id/seoul"
+        android:layout_below="@+id/searchView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp" />
+
+    <TextView
+        android:id="@+id/line"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:paddingTop="5dip"
+        android:gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:background="#c9c9c9"
+        android:layout_below="@+id/seoul"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Busan"
+        android:id="@+id/busan"
+        android:layout_below="@+id/line"
+        android:layout_alignLeft="@+id/seoul"
+        android:layout_alignStart="@+id/seoul"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:id="@+id/line2"
+        android:paddingTop="5dip"
+        android:gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:background="#c9c9c9"
+        android:layout_below="@+id/busan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Incheon"
+        android:id="@+id/incheon"
+        android:layout_below="@+id/line2"
+        android:layout_alignLeft="@+id/busan"
+        android:layout_alignStart="@+id/busan"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:id="@+id/line3"
+        android:paddingTop="5dip"
+        android:gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:background="#c9c9c9"
+        android:layout_below="@+id/incheon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Daegu"
+        android:id="@+id/Daegu"
+        android:layout_below="@+id/line3"
+        android:layout_alignLeft="@+id/incheon"
+        android:layout_alignStart="@+id/incheon"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:id="@+id/line4"
+        android:paddingTop="5dip"
+        android:gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:background="#c9c9c9"
+        android:layout_below="@+id/Daegu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Daejeon"
+        android:id="@+id/Daejeon"
+        android:layout_below="@+id/line4"
+        android:layout_alignLeft="@+id/Daegu"
+        android:layout_alignStart="@+id/Daegu"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:id="@+id/line5"
+        android:paddingTop="5dip"
+        android:gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:background="#c9c9c9"
+        android:layout_below="@+id/Daejeon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Gwangju"
+        android:id="@+id/Gwangju"
+        android:layout_below="@+id/line5"
+        android:layout_alignLeft="@+id/Daejeon"
+        android:layout_alignStart="@+id/Daejeon"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:id="@+id/line6"
+        android:paddingTop="5dip"
+        android:gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:background="#c9c9c9"
+        android:layout_below="@+id/Gwangju"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Suwon"
+        android:id="@+id/Suwon"
+        android:layout_below="@+id/line6"
+        android:layout_alignLeft="@+id/Gwangju"
+        android:layout_alignStart="@+id/Gwangju"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:id="@+id/line7"
+        android:paddingTop="5dip"
+        android:gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:background="#c9c9c9"
+        android:layout_below="@+id/Suwon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sokcho"
+        android:id="@+id/Sokcho"
+        android:layout_below="@+id/line7"
+        android:layout_alignLeft="@+id/Suwon"
+        android:layout_alignStart="@+id/Suwon"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:id="@+id/line8"
+        android:paddingTop="5dip"
+        android:gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:background="#c9c9c9"
+        android:layout_below="@+id/Sokcho"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+</RelativeLayout>

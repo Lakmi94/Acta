@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.acta.acta.app.Activity.Country_Info.CountryInformationBurundiGeneralInfo">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" >
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Burundi"
+            android:textColor="@android:color/white"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_gravity="left"
+            />
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Famous Places"
+        android:id="@+id/tip"
+        android:textColor="#000000"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Donec sapien ante, congue eget pulvinar id, fringilla quis ante. Duis vehicula et enim quis tincidunt. Sed scelerisque, odio a bibendum dictum, risus risus malesuada magna, nec dictum neque turpis sed dolor. Pellentesque at sagittis tellus, non auctor neque. Aliquam sodales gravida sapien, at lobortis ipsum faucibus nec."
+        android:id="@+id/content1"
+        android:layout_below="@+id/tip"
+        android:layout_alignLeft="@+id/tip"
+        android:layout_alignStart="@+id/tip"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="30dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/place2"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/content1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Transportation"
+        android:id="@+id/subtitle2"
+        android:textColor="#000000"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Ut sodales sit amet libero ut sollicitudin. Nunc tortor nunc, vehicula vel mauris vel, semper blandit metus. Proin vel felis enim. Curabitur et hendrerit felis. Nam ornare sed libero eget convallis."
+        android:id="@+id/content2"
+        android:layout_below="@+id/subtitle2"
+        android:layout_alignLeft="@+id/content1"
+        android:layout_alignStart="@+id/content1"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp" />
+
+</RelativeLayout>

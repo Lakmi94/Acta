@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_user_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:title="@string/create_user_profile"
+    tools:context="com.acta.acta.app.Activity.User_profile">
+
+    <ImageButton
+        android:id="@+id/user_image"
+        android:background="@mipmap/ic_launcher"
+        android:contentDescription="@string/profile_picture"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:cropToPadding="false" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/userName"
+        android:ems="10"
+        android:layout_below="@+id/user_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:id="@+id/userName" />
+
+    <Button
+        android:text="@string/submit_userProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/submit_button"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:elevation="5dp" />
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "490065144734",
+    "firebase_url": "https://acta-e078e.firebaseio.com",
+    "project_id": "acta-e078e",
+    "storage_bucket": "acta-e078e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490065144734:android:0277071b5dbfb6e3",
+        "android_client_info": {
+          "package_name": "com.acta.acta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490065144734-t4fsme998uc1ckhmqcquus4v10ijq7k5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.acta.acta",
+            "certificate_hash": "33497FD13F5A07CC2C2F0490E8558C6D64972EEB"
+          }
+        },
+        {
+          "client_id": "490065144734-nrr3pl6mup33d9caufc1n6ss96dsus2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDae42zPsKZOGzxEHBhjMUFgOU12tr8xAo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490065144734-nrr3pl6mup33d9caufc1n6ss96dsus2e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
